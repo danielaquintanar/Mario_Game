@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.game-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #87CEEB;
+    position: relative;
+}
+
+.ground {
+    width: 100%;
+    height: 50px;
+    background-color: #8B4513;
+    position: absolute;
+    bottom: 0;
+}
+
+.mario {
+    width: 50px;
+    height: 50px;
+    background-color: #FF0000;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    transition: bottom 0.1s;
+}
